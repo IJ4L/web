@@ -1,0 +1,72 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f2f7ff;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 100%; /* Ubah menjadi 100% agar tabel penuh di dalam card */
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid white;
+  text-align: left;
+}
+
+th {
+  background-color: #51459e;
+  color: #fff;
+}
+
+tr:hover {
+  background-color: #c5d3f9;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.action-buttons button {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.action-buttons button.delete {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+}
+
+.action-buttons button.update {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+}
+
+img {
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: cover;
+}
